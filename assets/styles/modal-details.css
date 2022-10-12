@@ -1,0 +1,131 @@
+
+.scren-modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);    
+    z-index: 1;
+    display: none;
+    font-size: 0.8rem;
+}
+
+.modal{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.header-pokemon{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-pokebola-modal{
+    width: 4rem;
+    position: absolute;
+    align-self: flex-end;
+    right: -15px;
+    top: -15px;
+    transition: 0.2s;
+}
+
+.img-pokebola-modal:hover{
+    transform: scale(1.08);
+}
+
+.name-pokemon{
+    align-self: flex-start;
+    margin: 2rem;
+}
+
+.img-pokemon-modal{
+    width: 8rem;
+    position: relative;
+    bottom: -20px;
+    transition: 0.2s;
+}
+
+.img-pokemon-modal:hover{
+    transform: scale(1.02);
+     filter: drop-shadow( 2px 3px 5px rgba(0, 0, 0, 0.433));
+}
+
+.info-pokemon{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5rem 1.5rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    font-size: 0.7rem;
+}
+
+.poke-experience, .poke-weight{
+    color: #332f8c;
+}
+
+.info-pokemon h2{
+    margin-bottom: 0.1rem;
+    text-align: center;
+}
+
+.info-pokemon p {
+    max-width: 100px ;
+    margin: 0.4rem;
+    line-height: 3px;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+.info-pokemon .type{
+    text-align: center;
+    padding: 0.6rem 0.7rem;
+    border-radius: 0.7rem;
+}
+
+.id{
+    top: 40px;
+    right: 6px;
+}
+
+.info-pokemon div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4rem;
+}
+
+@media(min-width:370px){
+    .info-pokemon{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3rem 2rem;
+        font-size: 0.8rem;
+    }
+    .img-pokemon-modal{
+        width: 11rem;
+    }
+    .id{
+        top: 20px;
+        right: 30px;
+    }
+}
+
+@media(min-width:768px){
+    .img-pokemon-modal{
+        width: 13rem;
+    }
+}
+
+
