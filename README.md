@@ -1,4 +1,4 @@
-# analisador-de-numeros
+# Pokedex
  Pokedex desenvolvida para praticar conceitos de requisição a API.
 <br>
 GitHub Pages: https://kauecouto.github.io/pokedex/
