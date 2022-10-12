@@ -125,13 +125,13 @@
     
 }
 
-@media(min-width:768px){
+@media(min-width:680px){
     .lista-pokemons{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media(min-width:1150px){
+@media(min-width:1050px){
     .lista-pokemons{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
