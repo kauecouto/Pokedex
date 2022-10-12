@@ -41,7 +41,8 @@
 
 .name-pokemon{
     color: white;
-    margin: 1rem 1rem;
+    font-size: 1.1rem;
+    padding: 1rem;
     text-transform: capitalize;
     z-index: 0;
 }
@@ -76,7 +77,7 @@
 }
 
 .imagem-pokemon{
-    width: 6rem;
+    width: 5rem;
     align-self: flex-end;
     transition: 0.2s;
     z-index: 0;
@@ -114,12 +115,12 @@
     background-color: #372de7;
 }
 
-@media(min-width:460px){
+@media(min-width:370px){
     .lista-pokemons{
         grid-template-columns: 1fr 1fr;
     }
     .img-pokebola{
-        margin-left: 2rem;
+        width: 3rem;
     }
     
 }

@@ -41,7 +41,9 @@
     transform: scale(1.08);
 }
 
-.name-pokemon{
+.name-pokemon-modal{
+    color: white;
+    text-transform: capitalize;
     align-self: flex-start;
     margin: 2rem;
 }

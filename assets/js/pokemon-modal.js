@@ -8,7 +8,7 @@ const criaModalPokemon = (pokemon) => {
                 <div class="header-pokemon">
                     <img src="assets/imagens/button-fechar2.png" class="img-pokebola-modal"
                     alt="botao fechar" onclick="fechaModal()">
-                    <h1 class="name-pokemon">${pokemon.name}</h1>
+                    <h1 class="name-pokemon-modal">${pokemon.name}</h1>
                     <span class="id-pokemon id">#${pokemon.id}</span>
                     <img src="${pokemon.img}" class="img-pokemon-modal" alt="${pokemon.name}">
                 </div>
